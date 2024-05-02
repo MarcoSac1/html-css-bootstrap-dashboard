@@ -1,0 +1,42 @@
+body{
+    font-family: "Roboto";
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img.mobile-logo{
+    width: 4rem
+
+}
+
+aside{
+    width: 80px;
+    
+}
+
+.my_gray{
+    background-color: #e5e5e5;
+}
+
+.my_bg-blue{
+    background-color:#1b72e8 ;
+}
+
+.orange{
+    color: #ff8f00;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+aside{
+    width: 80px;
+    
+}
+
+    /* background-color: #ff8f00; */
