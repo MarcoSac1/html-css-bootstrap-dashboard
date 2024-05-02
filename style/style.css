@@ -12,11 +12,22 @@ img.mobile-logo{
     width: 4rem
 
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 aside{
     width: 80px;
-    
+    height: calc(100vh - 96px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #11283f;
 }
+
+.main_container{
+    width: calc(100% - 80px);
+}
+
 
 .my_gray{
     background-color: #e5e5e5;
@@ -26,6 +37,43 @@ aside{
     background-color:#1b72e8 ;
 }
 
+.bg_orange{
+    background-color:#f26551;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.done{
+    background-color: #198754;
+    padding: .2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.process{
+    background-color: #ffc107;
+    padding: .2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.failed{
+    background-color: #dc3545;
+    padding: .2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.icon_gray{
+    border: 1px solid #6c757d;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-left: .5rem;
+}
+
+span.icon_gray{
+    color:#6c757d;
+}
 .orange{
     color: #ff8f00;
 }
