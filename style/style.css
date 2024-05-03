@@ -89,5 +89,12 @@ aside{
     
 }
 
+@media screen and (min-width: 768px;){
+    
+    aside{
+        width: 140px;
+    }
+    
+}
 
     /* background-color: #ff8f00; */
