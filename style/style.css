@@ -89,12 +89,20 @@ aside{
     
 }
 
-@media screen and (min-width: 768px;){
+@media screen and (min-width: 992px){
     
     aside{
         width: 140px;
+        height: calc(100vh - 82px);
+        background-image: url(../img/sidebar-bg.png);
+        background-color: #11283f;
     }
     
+    .main_container{
+        width: calc(100vw - 140px);
+        height: calc(100vh - 82px);
+        overflow-y: scroll;
+    }
 }
 
     /* background-color: #ff8f00; */
