@@ -9,7 +9,7 @@ body{
 }
 
 img.mobile-logo{
-    width: 4rem
+    height: 50px;
 
 }
 main{
@@ -19,13 +19,15 @@ main{
 
 aside{
     width: 80px;
-    height: calc(100vh - 96px);
+    height: calc(100vh - 82px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #11283f;
 }
 
 .main_container{
     width: calc(100% - 80px);
+    height: calc(100vh - 82px);
+    overflow-y: scroll;
 }
 
 

@@ -17,13 +17,14 @@
         <div class=" py-3  container-fluid ">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="">
-                    <img class="mobile-logo" src="./img/mobile-logo.png" alt=" main-logo">
+                    <img class="mobile-logo d-md-none" src="./img/mobile-logo.png" alt=" main-logo">
+                    <img class="mobile-logo d-sm-none d-md-block" src="./img/logo.svg" alt="main-logo">
                 </div>
                 <div class=" ">
                     <form class="container">
                         <div class="input-group">
-                            <span class="input-group-text  my_gray border-0 " id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <input type="text " class="form-control   my_gray border-0 fs-6" placeholder="Prova a cercare: Lezioni di laravel" aria-label="search" aria-describedby="basic-addon1">
+                            <span class="input-group-text   my_gray border-0 " id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text " class="form-control  w-50  my_gray border-0 fs-6" placeholder="Prova a cercare: Lezioni di laravel" aria-label="search" aria-describedby="basic-addon1">
                         </div>
                     </form>
                 </div>
@@ -39,6 +40,7 @@
                 <ul class="py-4" >
                     <li class="py-1">
                         <i class="fa-solid fa-house"></i>
+                        <span class=" d-sm-none d-md-inline">home</span>
                     </li>
                     <li class="py-1">
                         <i class="fa-solid fa-chart-simple"></i>
@@ -95,7 +97,7 @@
                                             ></button>
                                         </div>
                                         <div class="offcanvas-body ">
-                                            <form >
+                                            <form>
                                                 <div class="mb-3 w-50">
                                                     <label for="exampleInputtext1" class="form-label">Nome</label>
                                                     <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="emailHelp">
