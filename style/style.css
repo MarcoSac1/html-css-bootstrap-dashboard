@@ -72,10 +72,19 @@ aside{
     padding: .5rem;
     margin-left: .5rem;
 }
+.my_bg-dark{
+    background-color:#165bba;
+}
+
+.rounded-pill{
+    font-size: .8rem;
+}
+
 
 span.icon_gray{
     color:#6c757d;
 }
+
 .orange{
     color: #ff8f00;
 }
@@ -89,8 +98,23 @@ aside{
     
 }
 
-@media screen and (min-width: 992px){
+@media  screen and(min-width: 576px){
+    .invisible{
+        display: none;
+    }
     
+    
+}
+
+@media  screen and(min-width: 768px){
+    .invisible{
+        display:inline-block;
+    }
+
+    
+}
+
+@media screen and (min-width: 992px){
     aside{
         width: 140px;
         height: calc(100vh - 82px);
@@ -105,4 +129,3 @@ aside{
     }
 }
 
-    /* background-color: #ff8f00; */
